@@ -71,11 +71,6 @@ OUTPUT_FILE_PADDING_RIGHT_EVEN_MM = 20
 
 # Press the green button in the gutter to run the script.
 if __name__ == "__main__":
-    # Create output directory if not exists
-    # if not os.path.exists(OUTPUT_DIRECTORY):
-    #    print("Creating " + OUTPUT_DIRECTORY + " directory")
-    #    os.makedirs(OUTPUT_DIRECTORY)
-
     # Read PDF file
     print("Reading file: " + PATH_TO_HANDWRITTENER_PDF)
     pages = pdf2image.convert_from_path(PATH_TO_HANDWRITTENER_PDF,
